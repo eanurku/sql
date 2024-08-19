@@ -69,10 +69,7 @@ select customerName as "name of customer" from customers;
 #concat
 select concat(customerNumber," |",customerName) from customers;
 
-#cartesian join and where clause for filtering rows
-select c.customerName,o.orderNumber
-from customers c ,orders o
-where  c.customerNumber=o.customerNumber and  c.customerName like "%signal%";
+
 
 
 

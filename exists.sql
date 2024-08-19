@@ -12,7 +12,7 @@ select 1 from orders where orders.customerNumber=orders.customerNumber
 select * from orders o
 inner join orderdetails od
 on o.orderNumber=od.orderNumber
-where comments is NULL
+where comments is NULL;
 
 
 #exist vs IN query performance
